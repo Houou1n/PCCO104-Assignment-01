@@ -1,7 +1,7 @@
 using System;
-
 class Program {
-  public static void Main (string[] args) 
+  
+  static void Main (string[] args) 
   {
     Console.WriteLine("Enter Philippine Bank Note Denomination: ");
     string userInput = Console.ReadLine();
@@ -44,10 +44,6 @@ class Program {
     else
     {
       Console.WriteLine($"No person found for denomination: {userInput}");
-      }
     }
   }
-      
-      
-    
-    
+}    
